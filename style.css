@@ -32,7 +32,7 @@ body {
 
 .hero img {
   width: 100%;
-  max-width: 420px;
+  max-width: 100rem;
   margin-top: 35px;
   border-radius: 14px;
   display: block;
@@ -50,6 +50,8 @@ body {
   grid-template-columns: 2fr 1fr;
   gap: 40px;
   align-items: start;
+  border-top: 1px solid #d4d4d4;
+  padding-top: 3.5rem;
 }
 
 .about-text h2 {
@@ -79,7 +81,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 35px;
+  border-top: 1px solid #d4d4d4;
   align-items: start;
+  padding-top: 3.5rem;
 }
 
 .game-image-box img {
@@ -99,16 +103,60 @@ body {
   font-size: 15px;
   color: #555555;
 }
-game-links {
-  margin-top: 18px;
+
+
+.survivors-section {
+  margin-top: 70px;
 }
 
-.game-links a {
-  display: inline-block;
-  margin-right: 14px;
-  font-size: 16px;
+.survivors-title {
+  text-align: center;
+  font-size: 34px;
+  letter-spacing: 8px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+.survivor-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  border-top: 1px solid #d4d4d4;
+  padding-top: 25px;
+}
+
+.survivor-card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  color: #111111;
+}
+
+.survivor-card p {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 14px;
+}
+
+.survivor-card a {
+  font-size: 13px;
   color: #666666;
   text-decoration: underline;
 }
 
+.navbar{
+  position:sticky;
+  text-align:center;
+  padding: 1.5rem 0 1.75rem;
+  top:0;
+  display:block;
+  background-color:#808080;
+}
+
+.navbar a {
+  display: inline-block;
+  margin-right: 14px;
+  font-size: 16px;
+  color: #414141;
+  text-decoration: underline;
+	}
 	
