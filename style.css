@@ -70,3 +70,33 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+.game-section {
+  margin-top: 40px;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 35px;
+  align-items: start;
+}
+
+.game-image-box img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  display: block;
+}
+
+.game-text h2 {
+  font-size: 38px;
+  margin-bottom: 18px;
+  color: #000000;
+}
+
+.game-text p {
+  font-size: 15px;
+  color: #555555;
+}
+
